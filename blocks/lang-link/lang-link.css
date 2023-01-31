@@ -1,0 +1,7 @@
+.lang-link{
+    gap: 18px;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin-bottom: 0;
+}
