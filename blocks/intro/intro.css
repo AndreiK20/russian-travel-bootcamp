@@ -4,3 +4,9 @@
   margin-left: 148px;
   overflow: hidden;
 }
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin-left: 48px;
+    width: calc(100% - (286px + 48px));
+  }
+}

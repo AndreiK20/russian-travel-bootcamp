@@ -11,5 +11,10 @@
   margin-right: calc((100% - 560px) / 2 );
   overflow: hidden;
   z-index: 2;
-
+}
+@media screen and (max-width:1024px) {
+  .cover__title{
+    min-width: calc(100% - (232px * 2));
+  }
+  
 }

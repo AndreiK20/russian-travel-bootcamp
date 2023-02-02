@@ -10,3 +10,13 @@
   row-gap: 16px;
   overflow: hidden;
 }
+@media screen and (max-width:1024px) {
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 14px;
+    column-gap: 14px;
+    min-height: 942px;
+  }
+}

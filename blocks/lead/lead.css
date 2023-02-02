@@ -2,6 +2,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: calc(100% - (148px * 2));
-  margin:56px 148px 0 148px;
+  min-width: calc(100% - (148px * 2));
+  margin: 56px 148px 0 148px;
+}
+
+@media screen and (max-width:1024px) {
+  .lead {
+    margin: 48px 48px 0 48px;
+    min-width: calc(100% - (48px * 2));
+  }
 }
