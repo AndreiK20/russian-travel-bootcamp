@@ -1,0 +1,9 @@
+.header__box {
+  min-width: calc(100% - (48px * 2));
+  min-height: 52px;
+  margin: 28px 48px 0 48px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}

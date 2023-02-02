@@ -8,4 +8,5 @@
   margin-right: 48px;
   column-gap: 16px;
   row-gap: 16px;
+  overflow: hidden;
 }

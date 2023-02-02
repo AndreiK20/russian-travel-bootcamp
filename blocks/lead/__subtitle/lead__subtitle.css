@@ -1,11 +1,16 @@
 .lead__subtitle {
+  font-family: 'Inter';
+  font-style: normal;
   font-weight: 400;
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
-  width: calc(100% - (172px * 2));
-  margin-bottom: 64px;
+  min-width: 640px;
+  min-height: 72px; 
   margin-top: 32px;
+  margin-left: calc((100% - 640px) / 2 );
+  margin-right: calc((100% - 640px) / 2 );
+  margin-bottom: 64px;
   overflow: hidden;
   text-align: center;
 }

@@ -1,0 +1,8 @@
+.cover {
+  min-height: 740px;
+  min-width: calc(100% - (48px * 2));
+  margin-top: 92px;
+  margin-left: 48px;
+  margin-right: 48px;
+  overflow: hidden;
+}
