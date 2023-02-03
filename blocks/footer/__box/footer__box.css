@@ -8,9 +8,16 @@
 }
 @media screen and (max-width: 768px) {
   .footer__box {
-    min-height: 18px;
     margin-left: 24px;
     margin-right: 24px;
+    min-width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 560px) {
+  .footer__box {
+    margin-left: 0;
+    margin-right: 0;
+    min-width: calc(100% );
   }
 }
 @media screen and (max-width: 320px) {

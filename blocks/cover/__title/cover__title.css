@@ -12,14 +12,20 @@
   overflow: hidden;
   z-index: 2;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 550px) {
   .cover__title {
+    font-size: 32px;
+    line-height: 35px;
     min-width: 224px;
     min-height: 70px;
     margin-left: calc((100% - 288px) / 2);
     margin-right: calc((100% - 288px) / 2);
-    font-size: 32px;
-    line-height: 35px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover__title {
     margin-top: 33px;
     padding-right: 24px;
     padding-left: 24px;

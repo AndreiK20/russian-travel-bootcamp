@@ -5,18 +5,20 @@
   font-size: 30px;
   line-height: 36px;
   color: #ffffff;
-  min-width: 640px;
+  min-width: calc(100% - (172px * 2));
   min-height: 72px;
   margin-top: 32px;
   margin-left: calc((100% - 640px) / 2);
   margin-right: calc((100% - 640px) / 2);
   margin-bottom: 64px;
-  overflow: hidden;
   text-align: center;
 }
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     margin-bottom: 56px;
+    min-width: (100% - (64px * 2));
+    margin-left: 64px;
+    margin-right: 64px;
   }
 }
 @media screen and (max-width: 320px) {
