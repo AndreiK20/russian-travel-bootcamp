@@ -1,20 +1,27 @@
 .cover__title {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   text-align: center;
-  margin: 0;
-  min-width: calc(100% - (312px * 2));
-  margin-left: calc((100% - 560px) / 2 );
-  margin-right: calc((100% - 560px) / 2 );
+  margin-top: 0;
+  margin-left: calc((100% - 560px) / 2);
+  margin-right: calc((100% - 560px) / 2);
+  margin-bottom: 0;
   overflow: hidden;
   z-index: 2;
 }
-@media screen and (max-width:1024px) {
-  .cover__title{
-    min-width: calc(100% - (232px * 2));
+@media screen and (max-width: 320px) {
+  .cover__title {
+    min-width: 224px;
+    min-height: 70px;
+    margin-left: calc((100% - 288px) / 2);
+    margin-right: calc((100% - 288px) / 2);
+    font-size: 32px;
+    line-height: 35px;
+    margin-top: 33px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
-  
 }

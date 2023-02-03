@@ -31,3 +31,18 @@
     min-height: 640px;
    }
   }
+  @media screen and (max-width:768px) {
+    .cover__link{
+     min-width: 768px;
+     min-height: 480px;
+    }
+   }
+   @media screen and (max-width:320px) {
+    .cover__link{
+     min-width: 320px;
+     min-height: 200px;
+     object-fit: contain;
+     background-size: 320px 200px;
+
+    }
+   }

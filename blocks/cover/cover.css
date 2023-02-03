@@ -12,3 +12,17 @@
     min-height: 640px;
   }
 }
+@media screen and (max-width:768px) {
+  .cover{
+    margin:0;
+    min-width: 768px;
+    min-height: 480px;
+  }
+}
+@media screen and (max-width:320px) {
+  .cover{
+    margin:0;
+    min-width: 320px;
+    min-height: 200px;
+  }
+}

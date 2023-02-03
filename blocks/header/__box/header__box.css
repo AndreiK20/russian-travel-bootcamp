@@ -6,3 +6,15 @@
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .header__box {
+    min-width: calc(100% - (24px * 2));
+    margin: 28px 24px 0 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__box {
+    min-width: calc(100% - (16px * 2));
+    margin: 16px 16px 0 16px;
+  }
+}
