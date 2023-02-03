@@ -14,7 +14,7 @@
   margin-bottom: 0;
   padding: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lead__title {
     margin: 0 16px 0 16px;
     min-width: calc(100% - (16px * 2));

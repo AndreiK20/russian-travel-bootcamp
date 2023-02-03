@@ -12,7 +12,7 @@
     z-index: 0;
 
   }
-  .cover__link::before {
+  .cover__link:before {
     content: '';
     position: absolute;
     top:0;
@@ -22,7 +22,7 @@
     background-color: #2a2c2f;
     opacity: 30%;
   }
-  .cover__link:hover::before {
+  .cover__link:hover:before {
     opacity: 80%;
   }
   @media screen and (max-width:1024px) {

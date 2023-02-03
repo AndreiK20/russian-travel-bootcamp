@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .lang-link_english {
     width: 22px;
     height: 20px;
