@@ -4,13 +4,13 @@
   margin-bottom: 24px;
   color: #ffffff;
 }
-@media screen and (max-width:768px) {
-  .footer{
-  margin-top: 88px;
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 88px;
   }
- }
- @media screen and (max-width:768px) {
-  .footer{
-  margin-top: 64px;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 64px;
   }
- }
+}

@@ -1,8 +1,8 @@
 .place__link {
-  font-family: 'Inter';
+  font-family: "Inter";
   color: #ffffff;
   justify-self: flex-end;
 }
-.place__link:hover{
-  opacity: 1.0;
+.place__link:hover {
+  opacity: 1;
 }
