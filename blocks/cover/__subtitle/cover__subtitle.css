@@ -10,7 +10,6 @@
   margin-right: calc((100% - 360px) / 2);
   margin-top: 32px;
   margin-bottom: 0;
-  overflow: hidden;
   z-index: 2;
 }
 @media screen and (max-width: 768px) {
