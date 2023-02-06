@@ -9,10 +9,9 @@
   margin-left: calc((100% - 560px) / 2);
   margin-right: calc((100% - 560px) / 2);
   margin-bottom: 0;
-  overflow: hidden;
   z-index: 2;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 555px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
