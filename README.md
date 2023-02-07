@@ -7,8 +7,8 @@
 
 В этой работе применяются такие технологии  как grid, flex и двойное использование псевдоклассов для создние затмнения на всем изображение, которое еще и является ссылкой. 
 
-Это ссылка на github 
-https://github.com/AndreiK20/russian-travel-bootcamp.git
+Это ссылка на сайт
+https://andreik20.github.io/russian-travel-bootcamp/
 
 
 
