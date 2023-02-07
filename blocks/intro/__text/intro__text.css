@@ -1,5 +1,5 @@
 .intro__text {
-  font-family: "Inter";
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8,21 +8,20 @@
   margin-top: 0;
   margin-bottom: 33px;
   min-width: 690px;
-  margin-right: 442px; 
+  margin-right: 442px;
 }
 @media screen and (max-width: 1024px) {
   .intro__text {
-    min-height: 208px;
-    margin-right: 238px;
+    min-width: 690px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .intro__text {
-    min-width: calc(100% - (24px * 2));
+    min-width: 720px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .intro__text {
-    width: 288px;
+    min-width: 288px;
   }
 }

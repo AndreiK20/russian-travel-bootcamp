@@ -1,0 +1,13 @@
+.lang-link__russian_active {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter",Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color:#FFFFFF;
+}
+.lang-link__russian_active:hover{
+  opacity: 80%;
+}

@@ -2,6 +2,7 @@
   position: relative;
   color: #ffffff;
   background-image: url(../../../images/background.png);
+  background-size: cover;
   min-width: calc(100% - (48px * 2));
   min-height: 740px;
   display: flex;
@@ -30,9 +31,8 @@
     min-height: 640px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .cover__link {
-    min-width: calc(100%);
     min-height: 480px;
   }
 }
@@ -40,7 +40,5 @@
   .cover__link {
     min-width: 320px;
     min-height: 200px;
-    object-fit: contain;
-    background-size: 320px 200px;
   }
 }

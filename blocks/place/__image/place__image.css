@@ -7,13 +7,19 @@
     height: 440px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .place__image {
     width: 340px;
     height: 340px;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 660px) {
+  .place__image {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 590px) {
   .place__image {
     width: 320px;
     height: 320px;

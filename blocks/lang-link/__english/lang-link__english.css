@@ -1,0 +1,14 @@
+.lang-link__english {
+  color: #FFFFFF;
+  font-family: "Inter",Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+.lang-link__english:hover{
+  opacity: 80%;
+}

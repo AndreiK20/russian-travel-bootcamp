@@ -1,4 +1,10 @@
 .place__url {
   color: #aaaaaa;
+  font-family: "Inter",Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 170%;
+  letter-spacing: 2px;
   margin: 0;
 }

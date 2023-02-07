@@ -1,5 +1,5 @@
 .lead__title {
-  font-family: "Inter";
+  font-family: "Inter",Arial, Helvetica, sans-serif ;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -30,7 +30,5 @@
   .lead__title {
     margin: 0 16px 0 16px;
     min-width: calc(100% - (16px * 2));
-    font-size: 40px;
-    line-height: 44px;
   }
 }
