@@ -7,21 +7,10 @@
   color: #ffffff;
   margin-top: 0;
   margin-bottom: 33px;
-  min-width: 690px;
-  margin-right: 442px;
+  max-width: 690px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
   .intro__text {
-    min-width: 690px;
-  }
-}
-@media screen and (max-width: 770px) {
-  .intro__text {
-    min-width: 720px;
-  }
-}
-@media screen and (max-width: 330px) {
-  .intro__text {
-    min-width: 288px;
+    min-width: 100%;
   }
 }

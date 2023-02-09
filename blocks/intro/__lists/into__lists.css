@@ -7,14 +7,13 @@
   color: #ffffff;
   padding: 0;
   list-style-type: none;
-  min-width: 690px;
-  margin-right: 442px;
+  min-width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .intro__lists {
     min-width: 288px;
   }

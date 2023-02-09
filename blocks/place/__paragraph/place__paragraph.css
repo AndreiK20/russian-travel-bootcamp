@@ -11,12 +11,12 @@
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .place__paragraph {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 555px) {
+@media screen and (max-width: 600px) {
   .place__paragraph {
     margin-bottom: 25px;
     margin-left: 16px;

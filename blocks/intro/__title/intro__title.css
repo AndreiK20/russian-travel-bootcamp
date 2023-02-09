@@ -8,14 +8,13 @@
   margin-top: 0;
   margin-bottom: 40px;
   min-width: 690px;
-  min-height: 58px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   .intro__title {
     min-width: calc(100% - (24px * 2));
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .intro__title {
     min-width: 288px;
     font-size: 32px;

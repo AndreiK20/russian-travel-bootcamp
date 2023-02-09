@@ -3,8 +3,9 @@
   color: #ffffff;
   background-image: url(../../../images/background.png);
   background-size: cover;
-  min-width: calc(100% - (48px * 2));
-  min-height: 740px;
+  background-position: center;
+  min-width: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,20 +26,4 @@
 .cover__link:hover:before {
   opacity: 80%;
 }
-@media screen and (max-width: 1024px) {
-  .cover__link {
-    min-width: calc(100%);
-    min-height: 640px;
-  }
-}
-@media screen and (max-width: 770px) {
-  .cover__link {
-    min-height: 480px;
-  }
-}
-@media screen and (max-width: 570px) {
-  .cover__link {
-    min-width: 320px;
-    min-height: 200px;
-  }
-}
+

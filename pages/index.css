@@ -1,13 +1,14 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/fonts.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__box/header__box.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/lang-link/lang-link.css);
-@import url(../blocks/lang-link/__russian/_active/lang-link__russian_active.css);
-@import url(../blocks/lang-link/__english/lang-link__english.css);
+@import url(../blocks/lang-link/__language/lang-link__language.css);
+@import url(../blocks/lang-link/__language/_active/lang-link__language_active.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);

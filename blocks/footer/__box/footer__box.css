@@ -19,7 +19,7 @@
     min-width: calc(100%);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
   .footer__box {
     flex-direction: column;
     margin-left: 16px;
